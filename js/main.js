@@ -17,6 +17,7 @@ _username.innerHTML = name;
 // 1. Let them know their starting balance
       // Search the document for the 'balance' element
       // Change the content of the element
+      document.getElementById('balance').innerHTML = balance;
 
 
 let completeTransaction = function() {
