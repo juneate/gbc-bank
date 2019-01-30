@@ -27,7 +27,7 @@ let completeTransaction = function() {
   let _amount = parseInt(document.getElementById('amount').value);
 
   // 1. Update the balance using the transaction value
-  balance += 50;
+  balance += 100;
 
   // 2. Add a record to the history showing the amount deposited
   document.getElementById('history').innerHTML += `<li>You deposited $50.</li>`;
